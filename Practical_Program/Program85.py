@@ -1,0 +1,12 @@
+# coding: utf-8
+# This python program shuffle the list using random module
+
+import random
+
+def main():
+    x = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+    random.shuffle(x)
+    print(x)
+
+if __name__ == "__main__":
+    main()
